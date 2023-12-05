@@ -20,7 +20,7 @@ try:
         csv_writer.writerow([data])
     else:
         print("Done Recording!")
-        print(" 15 Samples Written!")
+        print(" Data Written!")
         ser.close()
         csv_file.close()
 except KeyboardInterrupt:
